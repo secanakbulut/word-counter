@@ -46,6 +46,9 @@ textarea:focus {
 
 .stats {
   margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 20px;
 }
 
 .stat {
@@ -66,4 +69,8 @@ textarea:focus {
   font-weight: 600;
   font-size: 15px;
   font-family: Menlo, Consolas, monospace;
+}
+
+@media (max-width: 480px) {
+  .stats { grid-template-columns: 1fr; }
 }

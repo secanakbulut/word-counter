@@ -1,5 +1,7 @@
 # word-counter
 
+![](docs/screenshot.png)
+
 paste text in the box, get the numbers. words, characters, sentences, paragraphs, reading time, plus a flesch reading ease score.
 
 ## what it shows
